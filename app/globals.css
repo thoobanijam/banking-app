@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #2e2d2d;
     --foreground: #ededed;
   }
 }
@@ -23,4 +23,34 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+ @keyframes float {
+  0%, 100% {
+    transform: translate(-50%, 0px);
+  }
+  50% {
+    transform: translate(-50%, -10px);
+  }
+}
+@keyframes borderPulse {
+  0%, 100% {
+    border-width: 5px;
+    border-color: #64817b;
+  }
+  50% {
+    border-width: 8px;
+    border-color: #9fbdb6;
+  }
+}
+@keyframes spinSlow {
+  40% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 10s linear infinite;
 }

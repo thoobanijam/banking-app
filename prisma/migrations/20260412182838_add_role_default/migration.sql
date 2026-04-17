@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Customer" ALTER COLUMN "branch" DROP NOT NULL,
+ALTER COLUMN "role" SET DEFAULT 'USER';
