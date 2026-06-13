@@ -251,7 +251,7 @@ const handleStaffClick = () => {
             <div className="absolute -top-10 -left-10 w-32 h-32 bg-green-200 blur-2xl opacity-0 group-hover:opacity-60 transition"></div>
 
             {/* Title */}
-            <p className="text-gray-500 text-sm">{item.title}</p>
+            <p className="text-gray-500 text-sm">{item.title} </p>
 
             {/* Rate */}
             <h3 className="text-4xl font-extrabold text-green-600 mt-3 group-hover:scale-110 transition">

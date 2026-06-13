@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { getBeneficiaries } from "@/lib/beneficiaryDB";
-import { getCurrentCustomer, getAllCustomers, updateCustomer } from "@/lib/bankDB";
+import { getCurrentCustomer, getAllCustomers } from "@/lib/bankDB";
 import { ArrowLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { transferMoney } from "@/lib/bankDB";
